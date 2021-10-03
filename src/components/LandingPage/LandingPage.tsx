@@ -1,7 +1,7 @@
-import React, {ReactElement} from 'react';
-import {Typography, Button, Grid, Box} from '@material-ui/core';
-import {makeStyles} from '@material-ui/core/styles';
-import {Link} from 'react-router-dom';
+import React, { ReactElement } from 'react';
+import { Typography, Button, Grid, Box } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   paper: {

@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingPage from './LandingPage';
-import {render, screen, waitFor} from '@testing-library/react';
-import {BrowserRouter as Router} from 'react-router-dom';
+import { render, screen, waitFor } from '@testing-library/react';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 describe('LandingPage', () => {
   test('it renders without crashing', async () => {
@@ -17,7 +17,7 @@ describe('LandingPage', () => {
   });
 
   test('it matches snapshot', async () => {
-    const {container} = render(
+    const { container } = render(
         <Router>
           <LandingPage />
         </Router>,
