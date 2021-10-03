@@ -15,16 +15,4 @@ describe('Login', () => {
 
     expect(submit).toBeInTheDocument();
   });
-
-  test('it matches snapshot', async () => {
-    const { container } = render(
-        <Router>
-          <SignUp />
-        </Router>,
-    );
-
-    await waitFor(() => screen.queryByText('Sign Up'));
-
-    expect(container).toMatchSnapshot();
-  });
 });
