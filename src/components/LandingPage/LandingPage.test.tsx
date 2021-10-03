@@ -15,16 +15,4 @@ describe('LandingPage', () => {
 
     expect(login).toBeInTheDocument();
   });
-
-  test('it matches snapshot', async () => {
-    const { container } = render(
-        <Router>
-          <LandingPage />
-        </Router>,
-    );
-
-    await waitFor(() => screen.queryByText('Login to Account'));
-
-    expect(container).toMatchSnapshot();
-  });
 });
