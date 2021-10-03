@@ -19,7 +19,7 @@
 .env.production.local
 
 # local config
-.eslintrc.js
+.eslintrc.json
 
 npm-debug.log*
 yarn-debug.log*
